@@ -16,3 +16,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.m-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    width: 200px;
+}
+
+    .m-1 .btn.btn-primary.btn-block {
+        border-radius: 10px 15px 15px 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
